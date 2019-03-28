@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8001
+spring:
+  application:
+    name: PLAT-SERVICE #ctrl+shift+u 转大写
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+---
+server:
+  port: 8002
+spring:
+  application:
+    name: PLAT-SERVICE-TEST #ctrl+shift+u 转大写
+  profiles: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
