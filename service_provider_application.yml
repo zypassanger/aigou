@@ -17,7 +17,7 @@ feign:
     enabled: true
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml
-	type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
+  type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
 ---
 server:
   port: 8002
@@ -34,4 +34,4 @@ feign:
     enabled: true
 mybatis-plus:
   mapper-locations: classpath:cn/itsource/aigou/mapper/*Mapper.xml
-	type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
+  type-aliases-package: cn.itsource.aigou.domain,cn.itsource.aigou.query
